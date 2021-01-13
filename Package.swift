@@ -34,7 +34,6 @@ let package = Package(
     targets: [
         .target(
             name: "MessageKit",
-            dependencies: ["InputBarAccessoryView"],
             path: "Sources",
             exclude: ["Supporting/Info.plist", "Supporting/MessageKit.h"],
             swiftSettings: [SwiftSetting.define("IS_SPM")]
