@@ -31,9 +31,6 @@ let package = Package(
     products: [
         .library(name: "MessageKit", targets: ["MessageKit"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/diss1993/InputBarAccessoryVieww", .upToNextMajor(from: "5.2.1"))
-    ],
     targets: [
         .target(
             name: "MessageKit",
